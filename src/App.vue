@@ -53,6 +53,8 @@ export default {
       holidayList: null,
       countries: null,
       selectedCountry: 'DE',
+      errored: false,
+      loading: false
     };
   },
   methods: {
