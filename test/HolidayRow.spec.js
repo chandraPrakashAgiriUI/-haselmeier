@@ -8,7 +8,6 @@ describe('HolidayRow', () => {
     const wrapper = shallowMount(HolidayRow, {
       propsData: { name, date },
     });
-    console.log();
-    expect(wrapper.text()).toBe(`${name}: ${date}`);
+    expect(wrapper.text()).toBe(`${name} ${date}`);
   });
 });
