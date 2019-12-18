@@ -8,7 +8,7 @@ export default {
   props: ['name', 'date'],
 };
 </script>
-<style>
+<style scoped>
 .holiday-list-row {
 	border-bottom: 1px solid black;
     padding: 5px;

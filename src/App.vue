@@ -89,7 +89,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .holidayList {
   border: 1px solid black;
   margin-top: 20px;
